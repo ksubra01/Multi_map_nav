@@ -4,27 +4,26 @@
 #include <geometry_msgs/msg/pose_stamped.hpp>
 #include <tf2/LinearMath/Quaternion.h>
 #include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
-#include <nav2_msgs/action/navigate_to_pose.hpp>  // Add this line
+#include <nav2_msgs/action/navigate_to_pose.hpp>
 #include <thread>
 #include <chrono>
 
 using namespace std::chrono_literals;
 
 NavigationServer::NavigationServer(const std::string &db_path) 
-: rclcpp::Node("navigation_server_node"), 
+: rclcpp::Node("navigation_server_node"),
   wormhole_manager_(db_path), 
   switch_map_(this)
 {
     current_map_ = "map1";
-
-    action_server_ = rclcpp_action::create_server<NavigateToGoal>(
+    std::cout<<"The type of this is: "<<typeid(this).name()<<std::endl;
+    action_server_ = rclcpp_action::create_server<multi_map_nav::action::NavigateToGoal>(
         this,
         "navigate_to_goal",
         std::bind(&NavigationServer::handle_goal, this, std::placeholders::_1, std::placeholders::_2),
         std::bind(&NavigationServer::handle_cancel, this, std::placeholders::_1),
-        std::bind(&NavigationServer::handle_accepted, this, std::placeholders::_1),
-        rcl_action_server_get_default_options(),
-        nullptr);
+        std::bind(&NavigationServer::handle_accepted, this, std::placeholders::_1)
+    );
 
     nav2_client_ = rclcpp_action::create_client<nav2_msgs::action::NavigateToPose>(this, "navigate_to_pose");
 
@@ -84,16 +83,14 @@ bool NavigationServer::move_base_to(double x, double y, double yaw)
 
 rclcpp_action::GoalResponse NavigationServer::handle_goal(
     const rclcpp_action::GoalUUID &uuid,
-    std::shared_ptr<const multi_map_nav::action::NavigateToGoal> goal)
+    const std::shared_ptr<const multi_map_nav::action::NavigateToGoal::Goal> goal)
 {
     RCLCPP_INFO(this->get_logger(), "Recieved goal to map");
-    (void)uuid;
+    (void)uuid;  // Suppress unused variable warning
     return rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
-
 }
 
-rclcpp_action::CancelResponse NavigationServer::handle_cancel(
-    const std::shared_ptr<GoalHandle> goal_handle)
+rclcpp_action::CancelResponse NavigationServer::handle_cancel(const std::shared_ptr<GoalHandle> goal_handle)
 {
     RCLCPP_INFO(this->get_logger(), "Goal cancelled");
     return rclcpp_action::CancelResponse::ACCEPT;
