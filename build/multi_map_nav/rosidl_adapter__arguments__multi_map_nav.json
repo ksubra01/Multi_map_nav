@@ -1,0 +1,6 @@
+{
+  "package_name": "multi_map_nav",
+  "non_idl_tuples": [
+    "/home/ksubra/new_ws/src/multi_map_nav:action/NavigateToGoal.action"
+  ]
+}

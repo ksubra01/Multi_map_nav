@@ -1,0 +1,89 @@
+[0.025s] Invoking command in '/home/ksubra/new_ws/build/multi_map_nav': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ksubra/new_ws/build/multi_map_nav -- -j6 -l6
+[0.134s] [  8%] Built target multi_map_nav__cpp
+[0.134s] [ 11%] Built target multi_map_nav__rosidl_generator_c
+[0.160s] [ 11%] Built target ament_cmake_python_copy_multi_map_nav
+[0.191s] [ 20%] Built target multi_map_nav__rosidl_typesupport_cpp
+[0.193s] [ 28%] Built target multi_map_nav__rosidl_typesupport_introspection_c
+[0.195s] [ 37%] Built target multi_map_nav__rosidl_typesupport_c
+[0.199s] [ 45%] Built target multi_map_nav__rosidl_typesupport_fastrtps_cpp
+[0.202s] [ 54%] Built target multi_map_nav__rosidl_typesupport_fastrtps_c
+[0.219s] [ 62%] Built target multi_map_nav__rosidl_typesupport_introspection_cpp
+[0.233s] [35m[1mConsolidate compiler generated dependencies of target navigation_server_node[0m
+[0.261s] [ 62%] Built target multi_map_nav
+[0.294s] [ 65%] [32mBuilding CXX object CMakeFiles/navigation_server_node.dir/src/navigation_server.cpp.o[0m
+[0.300s] [ 68%] Built target multi_map_nav__py
+[0.337s] [ 74%] Built target multi_map_nav__rosidl_generator_py
+[0.392s] [ 80%] Built target multi_map_nav__rosidl_typesupport_fastrtps_c__pyext
+[0.405s] [ 85%] Built target multi_map_nav__rosidl_typesupport_c__pyext
+[0.409s] [ 91%] Built target multi_map_nav__rosidl_typesupport_introspection_c__pyext
+[0.785s] running egg_info
+[0.789s] writing multi_map_nav.egg-info/PKG-INFO
+[0.790s] writing dependency_links to multi_map_nav.egg-info/dependency_links.txt
+[0.790s] writing top-level names to multi_map_nav.egg-info/top_level.txt
+[0.793s] reading manifest file 'multi_map_nav.egg-info/SOURCES.txt'
+[0.794s] writing manifest file 'multi_map_nav.egg-info/SOURCES.txt'
+[0.852s] [ 91%] Built target ament_cmake_python_build_multi_map_nav_egg
+[5.738s] [01m[K/home/ksubra/new_ws/src/multi_map_nav/src/navigation_server.cpp:[m[K In constructor ‘[01m[KNavigationServer::NavigationServer(const string&)[m[K’:
+[5.738s] [01m[K/home/ksubra/new_ws/src/multi_map_nav/src/navigation_server.cpp:20:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_server<NavigationServer::NavigateToGoal>(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const char [17], std::_Bind_helper<false, rclcpp_action::GoalResponse (NavigationServer::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const multi_map_nav::action::NavigateToGoal>), NavigationServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (NavigationServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<multi_map_nav::action::NavigateToGoal> >), NavigationServer*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (NavigationServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<multi_map_nav::action::NavigateToGoal> >), NavigationServer*, const std::_Placeholder<1>&>::type, rcl_action_server_options_t, std::nullptr_t)[m[K’
+[5.738s]    20 |     action_server_ = [01;31m[Krclcpp_action::create_server<NavigateToGoal>([m[K
+[5.739s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[5.739s]    21 | [01;31m[K        this->get_node_base_interface(),[m[K
+[5.739s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                          
+[5.739s]    22 | [01;31m[K        this->get_node_clock_interface(),[m[K
+[5.739s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                         
+[5.739s]    23 | [01;31m[K        this->get_node_logging_interface(),[m[K
+[5.740s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                       
+[5.740s]    24 | [01;31m[K        this->get_node_waitables_interface(),[m[K
+[5.740s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                     
+[5.740s]    25 | [01;31m[K        "navigate_to_goal",[m[K
+[5.740s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~[m[K                                       
+[5.740s]    26 | [01;31m[K        std::bind(&NavigationServer::handle_goal, this, std::placeholders::_1, std::placeholders::_2),[m[K
+[5.741s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.741s]    27 | [01;31m[K        std::bind(&NavigationServer::handle_cancel, this, std::placeholders::_1),[m[K
+[5.741s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.741s]    28 | [01;31m[K        std::bind(&NavigationServer::handle_accepted, this, std::placeholders::_1),[m[K
+[5.741s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.741s]    29 | [01;31m[K        rcl_action_server_get_default_options(),[m[K
+[5.741s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                  
+[5.742s]    30 | [01;31m[K        nullptr)[m[K;
+[5.742s]       |         [01;31m[K~~~~~~~~[m[K                                                  
+[5.742s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+[5.742s]                  from [01m[K/home/ksubra/new_ws/src/multi_map_nav/include/multi_map_nav/navigation_server.hpp:4[m[K,
+[5.742s]                  from [01m[K/home/ksubra/new_ws/src/multi_map_nav/src/navigation_server.cpp:1[m[K:
+[5.742s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktypename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr) [with ActionT = multi_map_nav::action::NavigateToGoal; typename rclcpp_action::Server<ActionT>::SharedPtr = std::shared_ptr<rclcpp_action::Server<multi_map_nav::action::NavigateToGoal> >; rclcpp::node_interfaces::NodeBaseInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>; rclcpp::node_interfaces::NodeClockInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeClockInterface>; rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeLoggingInterface>; rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeWaitablesInterface>; std::string = std::__cxx11::basic_string<char>; typename rclcpp_action::Server<ActionT>::GoalCallback = std::function<rclcpp_action::GoalResponse(const std::array<unsigned char, 16>&, std::shared_ptr<const multi_map_nav::action::NavigateToGoal_Goal_<std::allocator<void> > >)>; typename rclcpp_action::Server<ActionT>::CancelCallback = std::function<rclcpp_action::CancelResponse(std::shared_ptr<rclcpp_action::ServerGoalHandle<multi_map_nav::action::NavigateToGoal> >)>; typename rclcpp_action::Server<ActionT>::AcceptedCallback = std::function<void(std::shared_ptr<rclcpp_action::ServerGoalHandle<multi_map_nav::action::NavigateToGoal> >)>; rcl_action_server_options_t = rcl_action_server_options_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’
+[5.743s]    58 | [01;36m[Kcreate_server[m[K(
+[5.743s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[5.743s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:64:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 6 from ‘[01m[Kstd::_Bind_helper<false, rclcpp_action::GoalResponse (NavigationServer::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const multi_map_nav::action::NavigateToGoal>), NavigationServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type[m[K’ to ‘[01m[Krclcpp_action::Server<multi_map_nav::action::NavigateToGoal>::GoalCallback[m[K’ {aka ‘[01m[Kstd::function<rclcpp_action::GoalResponse(const std::array<unsigned char, 16>&, std::shared_ptr<const multi_map_nav::action::NavigateToGoal_Goal_<std::allocator<void> > >)>[m[K’}
+[5.743s]    64 |   [01;36m[Ktypename Server<ActionT>::GoalCallback handle_goal[m[K,
+[5.743s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[5.743s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(NodeT, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[5.743s]   132 | [01;36m[Kcreate_server[m[K(
+[5.744s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[5.744s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.744s] [01m[K/home/ksubra/new_ws/src/multi_map_nav/src/navigation_server.cpp:20:66:[m[K [01;36m[Knote: [m[K  candidate expects 7 arguments, 10 provided
+[5.744s]    20 |     action_server_ = [01;36m[Krclcpp_action::create_server<NavigateToGoal>([m[K
+[5.744s]       |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[5.744s]    21 | [01;36m[K        this->get_node_base_interface(),[m[K
+[5.744s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                          
+[5.745s]    22 | [01;36m[K        this->get_node_clock_interface(),[m[K
+[5.745s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                         
+[5.745s]    23 | [01;36m[K        this->get_node_logging_interface(),[m[K
+[5.745s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                       
+[5.745s]    24 | [01;36m[K        this->get_node_waitables_interface(),[m[K
+[5.745s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                     
+[5.746s]    25 | [01;36m[K        "navigate_to_goal",[m[K
+[5.746s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~[m[K                                       
+[5.746s]    26 | [01;36m[K        std::bind(&NavigationServer::handle_goal, this, std::placeholders::_1, std::placeholders::_2),[m[K
+[5.746s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.746s]    27 | [01;36m[K        std::bind(&NavigationServer::handle_cancel, this, std::placeholders::_1),[m[K
+[5.747s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.747s]    28 | [01;36m[K        std::bind(&NavigationServer::handle_accepted, this, std::placeholders::_1),[m[K
+[5.747s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.747s]    29 | [01;36m[K        rcl_action_server_get_default_options(),[m[K
+[5.747s]       |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                  
+[5.747s]    30 | [01;36m[K        nullptr)[m[K;
+[5.747s]       |         [01;36m[K~~~~~~~~[m[K                                                  
+[7.013s] gmake[2]: *** [CMakeFiles/navigation_server_node.dir/build.make:76: CMakeFiles/navigation_server_node.dir/src/navigation_server.cpp.o] Error 1
+[7.014s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/navigation_server_node.dir/all] Error 2
+[7.014s] gmake: *** [Makefile:146: all] Error 2
+[7.018s] Invoked command in '/home/ksubra/new_ws/build/multi_map_nav' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ksubra/new_ws/build/multi_map_nav -- -j6 -l6

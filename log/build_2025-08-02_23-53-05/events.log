@@ -1,0 +1,323 @@
+[0.000000] (-) TimerEvent: {}
+[0.001674] (multi_map_nav) JobQueued: {'identifier': 'multi_map_nav', 'dependencies': OrderedDict()}
+[0.001871] (multi_map_nav) JobStarted: {'identifier': 'multi_map_nav'}
+[0.015364] (multi_map_nav) JobProgress: {'identifier': 'multi_map_nav', 'progress': 'cmake'}
+[0.016781] (multi_map_nav) Command: {'cmd': ['/usr/bin/cmake', '/home/ksubra/new_ws/src/multi_map_nav', '-DCMAKE_INSTALL_PREFIX=/home/ksubra/new_ws/install/multi_map_nav'], 'cwd': '/home/ksubra/new_ws/build/multi_map_nav', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ksubra'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ksubra'), ('OLDPWD', '/home/ksubra'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1533'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ksubra'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ksubra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ksubra:@/tmp/.ICE-unix/1507,unix/ksubra:/tmp/.ICE-unix/1507'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ff59f1ab_a64f_4e80_9d0f_4c547e5f6b01'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UDZ392'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.200'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ksubra/new_ws/build/multi_map_nav'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099729] (-) TimerEvent: {}
+[0.135850] (multi_map_nav) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200137] (-) TimerEvent: {}
+[0.251216] (multi_map_nav) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.267525] (multi_map_nav) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300460] (-) TimerEvent: {}
+[0.401163] (-) TimerEvent: {}
+[0.410908] (multi_map_nav) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.430500] (multi_map_nav) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.433711] (multi_map_nav) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.433982] (multi_map_nav) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.439411] (multi_map_nav) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.501418] (-) TimerEvent: {}
+[0.602016] (-) TimerEvent: {}
+[0.611494] (multi_map_nav) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.631144] (multi_map_nav) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.631725] (multi_map_nav) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.632454] (multi_map_nav) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.641434] (multi_map_nav) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.643515] (multi_map_nav) StdoutLine: {'line': b"-- Checking for module 'sqlite3'\n"}
+[0.670997] (multi_map_nav) StdoutLine: {'line': b'--   Found sqlite3, version 3.37.2\n'}
+[0.702731] (-) TimerEvent: {}
+[0.745072] (multi_map_nav) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.813033] (-) TimerEvent: {}
+[0.914018] (-) TimerEvent: {}
+[1.015430] (-) TimerEvent: {}
+[1.040073] (multi_map_nav) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.116288] (-) TimerEvent: {}
+[1.216988] (-) TimerEvent: {}
+[1.229827] (multi_map_nav) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.312873] (multi_map_nav) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.319457] (-) TimerEvent: {}
+[1.323062] (multi_map_nav) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.341144] (multi_map_nav) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.371061] (multi_map_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.407926] (multi_map_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.422470] (-) TimerEvent: {}
+[1.514276] (multi_map_nav) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.521610] (multi_map_nav) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.522918] (-) TimerEvent: {}
+[1.623497] (-) TimerEvent: {}
+[1.709436] (multi_map_nav) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.727554] (-) TimerEvent: {}
+[1.769689] (multi_map_nav) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.829637] (-) TimerEvent: {}
+[1.858863] (multi_map_nav) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.880116] (multi_map_nav) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.929798] (-) TimerEvent: {}
+[2.030689] (-) TimerEvent: {}
+[2.035627] (multi_map_nav) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.036769] (multi_map_nav) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.131276] (-) TimerEvent: {}
+[2.188721] (multi_map_nav) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.196388] (multi_map_nav) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.232572] (-) TimerEvent: {}
+[2.329197] (multi_map_nav) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.14 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[2.332648] (-) TimerEvent: {}
+[2.418100] (multi_map_nav) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.433177] (-) TimerEvent: {}
+[2.457990] (multi_map_nav) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[2.533439] (-) TimerEvent: {}
+[2.580479] (multi_map_nav) StdoutLine: {'line': b'-- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.604864] (multi_map_nav) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.15 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.634353] (-) TimerEvent: {}
+[2.634841] (multi_map_nav) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.637155] (multi_map_nav) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.637542] (multi_map_nav) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.734505] (-) TimerEvent: {}
+[2.799008] (multi_map_nav) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[2.803964] (multi_map_nav) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.835303] (-) TimerEvent: {}
+[2.937376] (-) TimerEvent: {}
+[3.037990] (-) TimerEvent: {}
+[3.141174] (-) TimerEvent: {}
+[3.241868] (-) TimerEvent: {}
+[3.342752] (-) TimerEvent: {}
+[3.387940] (multi_map_nav) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.443024] (-) TimerEvent: {}
+[3.543426] (-) TimerEvent: {}
+[3.657680] (-) TimerEvent: {}
+[3.763471] (-) TimerEvent: {}
+[3.864007] (-) TimerEvent: {}
+[3.967381] (-) TimerEvent: {}
+[4.041646] (multi_map_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.067773] (-) TimerEvent: {}
+[4.179461] (-) TimerEvent: {}
+[4.287478] (-) TimerEvent: {}
+[4.296565] (multi_map_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.342637] (multi_map_nav) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[4.345872] (multi_map_nav) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.396020] (-) TimerEvent: {}
+[4.397202] (multi_map_nav) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[4.397531] (multi_map_nav) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.397681] (multi_map_nav) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.397813] (multi_map_nav) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.440580] (multi_map_nav) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.497272] (-) TimerEvent: {}
+[4.541625] (multi_map_nav) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.605544] (-) TimerEvent: {}
+[4.633552] (multi_map_nav) StdoutLine: {'line': b'-- Generating done\n'}
+[4.666895] (multi_map_nav) StdoutLine: {'line': b'-- Build files have been written to: /home/ksubra/new_ws/build/multi_map_nav\n'}
+[4.700715] (multi_map_nav) CommandEnded: {'returncode': 0}
+[4.702442] (multi_map_nav) JobProgress: {'identifier': 'multi_map_nav', 'progress': 'build'}
+[4.702533] (multi_map_nav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ksubra/new_ws/build/multi_map_nav', '--', '-j6', '-l6'], 'cwd': '/home/ksubra/new_ws/build/multi_map_nav', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ksubra'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ksubra'), ('OLDPWD', '/home/ksubra'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1533'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ksubra'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ksubra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ksubra:@/tmp/.ICE-unix/1507,unix/ksubra:/tmp/.ICE-unix/1507'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ff59f1ab_a64f_4e80_9d0f_4c547e5f6b01'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UDZ392'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.200'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ksubra/new_ws/build/multi_map_nav'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.706015] (-) TimerEvent: {}
+[4.785753] (multi_map_nav) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.805720] (multi_map_nav) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.806094] (-) TimerEvent: {}
+[4.824549] (multi_map_nav) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_multi_map_nav\n'}
+[4.910811] (-) TimerEvent: {}
+[5.014828] (-) TimerEvent: {}
+[5.121645] (-) TimerEvent: {}
+[5.237058] (-) TimerEvent: {}
+[5.345969] (-) TimerEvent: {}
+[5.439905] (multi_map_nav) StdoutLine: {'line': b'running egg_info\n'}
+[5.441929] (multi_map_nav) StdoutLine: {'line': b'creating multi_map_nav.egg-info\n'}
+[5.442305] (multi_map_nav) StdoutLine: {'line': b'writing multi_map_nav.egg-info/PKG-INFO\n'}
+[5.442756] (multi_map_nav) StdoutLine: {'line': b'writing dependency_links to multi_map_nav.egg-info/dependency_links.txt\n'}
+[5.443133] (multi_map_nav) StdoutLine: {'line': b'writing top-level names to multi_map_nav.egg-info/top_level.txt\n'}
+[5.443711] (multi_map_nav) StdoutLine: {'line': b"writing manifest file 'multi_map_nav.egg-info/SOURCES.txt'\n"}
+[5.448535] (-) TimerEvent: {}
+[5.449577] (multi_map_nav) StdoutLine: {'line': b"reading manifest file 'multi_map_nav.egg-info/SOURCES.txt'\n"}
+[5.450689] (multi_map_nav) StdoutLine: {'line': b"writing manifest file 'multi_map_nav.egg-info/SOURCES.txt'\n"}
+[5.521445] (multi_map_nav) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_multi_map_nav_egg\n'}
+[5.559157] (-) TimerEvent: {}
+[5.660166] (-) TimerEvent: {}
+[5.760624] (-) TimerEvent: {}
+[5.863318] (-) TimerEvent: {}
+[5.955794] (multi_map_nav) StdoutLine: {'line': b'[  5%] Built target multi_map_nav__cpp\n'}
+[5.967903] (-) TimerEvent: {}
+[5.980164] (multi_map_nav) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.982051] (multi_map_nav) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.982260] (multi_map_nav) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.065254] (multi_map_nav) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/multi_map_nav__rosidl_generator_c.dir/rosidl_generator_c/multi_map_nav/action/detail/navigate_to_goal__functions.c.o\x1b[0m\n'}
+[6.068915] (-) TimerEvent: {}
+[6.171434] (-) TimerEvent: {}
+[6.285291] (-) TimerEvent: {}
+[6.340648] (multi_map_nav) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmulti_map_nav__rosidl_generator_c.so\x1b[0m\n'}
+[6.392497] (-) TimerEvent: {}
+[6.435881] (multi_map_nav) StdoutLine: {'line': b'[ 20%] Built target multi_map_nav__rosidl_generator_c\n'}
+[6.470730] (multi_map_nav) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.471010] (multi_map_nav) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.471130] (multi_map_nav) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.510727] (-) TimerEvent: {}
+[6.616985] (-) TimerEvent: {}
+[6.729286] (-) TimerEvent: {}
+[6.804454] (multi_map_nav) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/multi_map_nav__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multi_map_nav/action/navigate_to_goal__type_support.cpp.o\x1b[0m\n'}
+[6.829763] (-) TimerEvent: {}
+[6.894323] (multi_map_nav) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/multi_map_nav__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multi_map_nav/action/detail/navigate_to_goal__type_support.cpp.o\x1b[0m\n'}
+[6.930600] (-) TimerEvent: {}
+[7.034610] (-) TimerEvent: {}
+[7.138160] (-) TimerEvent: {}
+[7.138657] (multi_map_nav) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/multi_map_nav__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multi_map_nav/action/detail/dds_fastrtps/navigate_to_goal__type_support.cpp.o\x1b[0m\n'}
+[7.248945] (-) TimerEvent: {}
+[7.364883] (-) TimerEvent: {}
+[7.487168] (-) TimerEvent: {}
+[7.504995] (multi_map_nav) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/multi_map_nav__rosidl_typesupport_c.dir/rosidl_typesupport_c/multi_map_nav/action/navigate_to_goal__type_support.cpp.o\x1b[0m\n'}
+[7.591201] (-) TimerEvent: {}
+[7.651930] (multi_map_nav) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libmulti_map_nav__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.698756] (-) TimerEvent: {}
+[7.799725] (-) TimerEvent: {}
+[7.822002] (multi_map_nav) StdoutLine: {'line': b'[ 42%] Built target multi_map_nav__rosidl_typesupport_c\n'}
+[7.843817] (multi_map_nav) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/multi_map_nav__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multi_map_nav/action/detail/navigate_to_goal__type_support.c.o\x1b[0m\n'}
+[7.912312] (-) TimerEvent: {}
+[7.932158] (multi_map_nav) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/multi_map_nav__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multi_map_nav/action/detail/navigate_to_goal__type_support_c.cpp.o\x1b[0m\n'}
+[8.012869] (-) TimerEvent: {}
+[8.013568] (multi_map_nav) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libmulti_map_nav__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.055528] (multi_map_nav) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmulti_map_nav__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.113230] (-) TimerEvent: {}
+[8.138614] (multi_map_nav) StdoutLine: {'line': b'[ 54%] Built target multi_map_nav__rosidl_typesupport_introspection_c\n'}
+[8.197159] (multi_map_nav) StdoutLine: {'line': b'[ 54%] Built target multi_map_nav__rosidl_typesupport_cpp\n'}
+[8.214167] (-) TimerEvent: {}
+[8.283470] (multi_map_nav) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/navigation_server_node.dir/src/switch_map.cpp.o\x1b[0m\n'}
+[8.289337] (multi_map_nav) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/navigation_server_node.dir/src/navigation_server.cpp.o\x1b[0m\n'}
+[8.292377] (multi_map_nav) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/navigation_server_node.dir/src/wormhole_manager.cpp.o\x1b[0m\n'}
+[8.325535] (-) TimerEvent: {}
+[8.444157] (-) TimerEvent: {}
+[8.476268] (multi_map_nav) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libmulti_map_nav__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.558042] (-) TimerEvent: {}
+[8.634406] (multi_map_nav) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libmulti_map_nav__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.666675] (-) TimerEvent: {}
+[8.720347] (multi_map_nav) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libmulti_map_nav__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.771195] (-) TimerEvent: {}
+[8.805784] (multi_map_nav) StdoutLine: {'line': b'[ 71%] Built target multi_map_nav__rosidl_typesupport_introspection_cpp\n'}
+[8.876405] (-) TimerEvent: {}
+[8.891872] (multi_map_nav) StdoutLine: {'line': b'[ 71%] Built target multi_map_nav__rosidl_typesupport_fastrtps_cpp\n'}
+[8.954192] (multi_map_nav) StdoutLine: {'line': b'[ 71%] Built target multi_map_nav__rosidl_typesupport_fastrtps_c\n'}
+[8.977154] (-) TimerEvent: {}
+[8.983339] (multi_map_nav) StdoutLine: {'line': b'[ 71%] Built target multi_map_nav\n'}
+[9.020586] (multi_map_nav) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.078883] (-) TimerEvent: {}
+[9.192182] (-) TimerEvent: {}
+[9.294993] (-) TimerEvent: {}
+[9.405728] (-) TimerEvent: {}
+[9.506937] (-) TimerEvent: {}
+[9.607617] (-) TimerEvent: {}
+[9.707943] (-) TimerEvent: {}
+[9.808417] (-) TimerEvent: {}
+[9.912369] (-) TimerEvent: {}
+[10.016079] (-) TimerEvent: {}
+[10.117531] (-) TimerEvent: {}
+[10.219633] (-) TimerEvent: {}
+[10.322604] (-) TimerEvent: {}
+[10.426551] (-) TimerEvent: {}
+[10.533556] (-) TimerEvent: {}
+[10.571645] (multi_map_nav) StdoutLine: {'line': b'[ 74%] Built target multi_map_nav__py\n'}
+[10.608293] (multi_map_nav) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/multi_map_nav__rosidl_generator_py.dir/rosidl_generator_py/multi_map_nav/action/_navigate_to_goal_s.c.o\x1b[0m\n'}
+[10.634687] (-) TimerEvent: {}
+[10.735420] (-) TimerEvent: {}
+[10.835163] (multi_map_nav) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/multi_map_nav/libmulti_map_nav__rosidl_generator_py.so\x1b[0m\n'}
+[10.835594] (-) TimerEvent: {}
+[10.917295] (multi_map_nav) StdoutLine: {'line': b'[ 80%] Built target multi_map_nav__rosidl_generator_py\n'}
+[10.940422] (-) TimerEvent: {}
+[10.980866] (multi_map_nav) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/multi_map_nav__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/multi_map_nav/_multi_map_nav_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.982534] (multi_map_nav) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/multi_map_nav__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/multi_map_nav/_multi_map_nav_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.985588] (multi_map_nav) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/multi_map_nav__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/multi_map_nav/_multi_map_nav_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.040743] (-) TimerEvent: {}
+[11.142370] (-) TimerEvent: {}
+[11.238090] (multi_map_nav) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/multi_map_nav/multi_map_nav_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.250915] (-) TimerEvent: {}
+[11.266352] (multi_map_nav) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/multi_map_nav/multi_map_nav_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.277988] (multi_map_nav) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/multi_map_nav/multi_map_nav_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.341126] (multi_map_nav) StdoutLine: {'line': b'[ 97%] Built target multi_map_nav__rosidl_typesupport_c__pyext\n'}
+[11.360360] (-) TimerEvent: {}
+[11.364225] (multi_map_nav) StdoutLine: {'line': b'[ 97%] Built target multi_map_nav__rosidl_typesupport_introspection_c__pyext\n'}
+[11.374646] (multi_map_nav) StdoutLine: {'line': b'[ 97%] Built target multi_map_nav__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.472179] (-) TimerEvent: {}
+[11.576504] (-) TimerEvent: {}
+[11.677080] (-) TimerEvent: {}
+[11.777471] (-) TimerEvent: {}
+[11.880133] (-) TimerEvent: {}
+[12.059515] (-) TimerEvent: {}
+[12.169432] (-) TimerEvent: {}
+[12.271420] (-) TimerEvent: {}
+[12.380634] (-) TimerEvent: {}
+[12.528738] (-) TimerEvent: {}
+[12.640135] (-) TimerEvent: {}
+[12.752282] (-) TimerEvent: {}
+[12.866716] (-) TimerEvent: {}
+[12.968668] (-) TimerEvent: {}
+[13.007342] (multi_map_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ksubra/new_ws/src/multi_map_nav/src/navigation_server.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KNavigationServer::NavigationServer(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.007660] (multi_map_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ksubra/new_ws/src/multi_map_nav/src/navigation_server.cpp:20:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcreate_server<multi_map_nav::action::NavigateToGoal>(NavigationServer*, const char [17], std::_Bind_helper<false, rclcpp_action::GoalResponse (NavigationServer::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const multi_map_nav::action::NavigateToGoal>), NavigationServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (NavigationServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<multi_map_nav::action::NavigateToGoal> >), NavigationServer*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (NavigationServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<multi_map_nav::action::NavigateToGoal> >), NavigationServer*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.007777] (multi_map_nav) StderrLine: {'line': b'   20 |  = \x1b[01;31m\x1b[Krclcpp_action::create_server<multi_map_nav::action::NavigateToGoal>(\x1b[m\x1b[K\n'}
+[13.007991] (multi_map_nav) StderrLine: {'line': b'      |    \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[13.008106] (multi_map_nav) StderrLine: {'line': b'\n'}
+[13.008219] (multi_map_nav) StderrLine: {'line': b'   21 | \n'}
+[13.008295] (multi_map_nav) StderrLine: {'line': b'      |                                                                        \n'}
+[13.008367] (multi_map_nav) StderrLine: {'line': b'\n'}
+[13.008438] (multi_map_nav) StderrLine: {'line': b'   22 | \x1b[01;31m\x1b[Kto_goal",\x1b[m\x1b[K\n'}
+[13.008508] (multi_map_nav) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~\x1b[m\x1b[K                                                              \n'}
+[13.008601] (multi_map_nav) StderrLine: {'line': b'\n'}
+[13.008674] (multi_map_nav) StderrLine: {'line': b'   23 | \x1b[01;31m\x1b[K&NavigationServer::handle_goal, this, std::placeholders::_1, std::placeholders::_2),\x1b[m\x1b[K\n'}
+[13.008745] (multi_map_nav) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.008815] (multi_map_nav) StderrLine: {'line': b'\n'}
+[13.008884] (multi_map_nav) StderrLine: {'line': b'   24 | \x1b[01;31m\x1b[K&NavigationServer::handle_cancel, this, std::placeholders::_1),\x1b[m\x1b[K\n'}
+[13.008954] (multi_map_nav) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K        \n'}
+[13.009137] (multi_map_nav) StderrLine: {'line': b'\n'}
+[13.009224] (multi_map_nav) StderrLine: {'line': b'   25 | \x1b[01;31m\x1b[K&NavigationServer::handle_accepted, this, std::placeholders::_1))\x1b[m\x1b[K;\n'}
+[13.009381] (multi_map_nav) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K      \n'}
+[13.009493] (multi_map_nav) StderrLine: {'line': b'\n'}
+[13.009604] (multi_map_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39\x1b[m\x1b[K,\n'}
+[13.009702] (multi_map_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ksubra/new_ws/src/multi_map_nav/include/multi_map_nav/navigation_server.hpp:4\x1b[m\x1b[K,\n'}
+[13.009792] (multi_map_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ksubra/new_ws/src/multi_map_nav/src/navigation_server.cpp:1\x1b[m\x1b[K:\n'}
+[13.009865] (multi_map_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr) [with ActionT = multi_map_nav::action::NavigateToGoal; typename rclcpp_action::Server<ActionT>::SharedPtr = std::shared_ptr<rclcpp_action::Server<multi_map_nav::action::NavigateToGoal> >; rclcpp::node_interfaces::NodeBaseInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>; rclcpp::node_interfaces::NodeClockInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeClockInterface>; rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeLoggingInterface>; rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeWaitablesInterface>; std::string = std::__cxx11::basic_string<char>; typename rclcpp_action::Server<ActionT>::GoalCallback = std::function<rclcpp_action::GoalResponse(const std::array<unsigned char, 16>&, std::shared_ptr<const multi_map_nav::action::NavigateToGoal_Goal_<std::allocator<void> > >)>; typename rclcpp_action::Server<ActionT>::CancelCallback = std::function<rclcpp_action::CancelResponse(std::shared_ptr<rclcpp_action::ServerGoalHandle<multi_map_nav::action::NavigateToGoal> >)>; typename rclcpp_action::Server<ActionT>::AcceptedCallback = std::function<void(std::shared_ptr<rclcpp_action::ServerGoalHandle<multi_map_nav::action::NavigateToGoal> >)>; rcl_action_server_options_t = rcl_action_server_options_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.010036] (multi_map_nav) StderrLine: {'line': b'   58 | \x1b[01;36m\x1b[Kcreate_server\x1b[m\x1b[K(\n'}
+[13.010150] (multi_map_nav) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.010259] (multi_map_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 10 arguments, 5 provided\n'}
+[13.010348] (multi_map_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(NodeT, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.010433] (multi_map_nav) StderrLine: {'line': b'  132 | \x1b[01;36m\x1b[Kcreate_server\x1b[m\x1b[K(\n'}
+[13.010506] (multi_map_nav) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.010580] (multi_map_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[13.010663] (multi_map_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ksubra/new_ws/src/multi_map_nav/src/navigation_server.cpp:23:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::bind(_Func&&, _BoundArgs&& ...) [with _Func = rclcpp_action::GoalResponse (NavigationServer::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const multi_map_nav::action::NavigateToGoal>); _BoundArgs = {NavigationServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&}; typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type = std::_Bind_helper<false, rclcpp_action::GoalResponse (NavigationServer::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const multi_map_nav::action::NavigateToGoal>), NavigationServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type; std::__is_socketlike<_Func> = std::__is_socketlike<rclcpp_action::GoalResponse (NavigationServer::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const multi_map_nav::action::NavigateToGoal>), rclcpp_action::GoalResponse (NavigationServer::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const multi_map_nav::action::NavigateToGoal>)>; typename std::decay<_Tp>::type = rclcpp_action::GoalResponse (NavigationServer::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const multi_map_nav::action::NavigateToGoal>)](((NavigationServer*)this), std::placeholders::_1, std::placeholders::_2)\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, rclcpp_action::GoalResponse (NavigationServer::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const multi_map_nav::action::NavigateToGoal>), NavigationServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::Server<multi_map_nav::action::NavigateToGoal>::GoalCallback\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<rclcpp_action::GoalResponse(const std::array<unsigned char, 16>&, std::shared_ptr<const multi_map_nav::action::NavigateToGoal_Goal_<std::allocator<void> > >)>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[13.010818] (multi_map_nav) StderrLine: {'line': b'   23 |         \x1b[01;36m\x1b[Kstd::bind(&NavigationServer::handle_goal, this, std::placeholders::_1, std::placeholders::_2)\x1b[m\x1b[K,\n'}
+[13.010897] (multi_map_nav) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.046677] (multi_map_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ksubra/new_ws/src/multi_map_nav/src/navigation_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool NavigationServer::move_base_to(double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.047014] (multi_map_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ksubra/new_ws/src/multi_map_nav/src/navigation_server.cpp:64:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class rclcpp_action::Client<nav2_msgs::action::NavigateToPose>\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp_action::Client<nav2_msgs::action::NavigateToPose>\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kwait_for_server\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kwait_for_action_server\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[13.047195] (multi_map_nav) StderrLine: {'line': b'   64 |     if (!nav2_client_->\x1b[01;31m\x1b[Kwait_for_server\x1b[m\x1b[K(goal_handle, std::chrono::seconds(30))) {\n'}
+[13.047320] (multi_map_nav) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.047441] (multi_map_nav) StderrLine: {'line': b'      |                        \x1b[32m\x1b[Kwait_for_action_server\x1b[m\x1b[K\n'}
+[13.049805] (multi_map_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ksubra/new_ws/src/multi_map_nav/src/navigation_server.cpp:77:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kresult\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KResult\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[13.050249] (multi_map_nav) StderrLine: {'line': b'   77 |     if (result->\x1b[01;31m\x1b[Kresult\x1b[m\x1b[K != rclcpp_action::ResultCode::SUCCEEDED) {\n'}
+[13.050369] (multi_map_nav) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.050470] (multi_map_nav) StderrLine: {'line': b'      |                 \x1b[32m\x1b[KResult\x1b[m\x1b[K\n'}
+[13.057910] (multi_map_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[13.058301] (multi_map_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[13.058429] (multi_map_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[13.058668] (multi_map_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:25\x1b[m\x1b[K,\n'}
+[13.058799] (multi_map_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:33\x1b[m\x1b[K,\n'}
+[13.058921] (multi_map_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36\x1b[m\x1b[K,\n'}
+[13.059076] (multi_map_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ksubra/new_ws/src/multi_map_nav/include/multi_map_nav/navigation_server.hpp:4\x1b[m\x1b[K,\n'}
+[13.059184] (multi_map_nav) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ksubra/new_ws/src/multi_map_nav/src/navigation_server.cpp:1\x1b[m\x1b[K:\n'}
+[13.059284] (multi_map_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ksubra/new_ws/src/multi_map_nav/src/navigation_server.cpp:78:87:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kresult\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KResult\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[13.059429] (multi_map_nav) StderrLine: {'line': b'   78 | is->get_logger(), "Navigation failed with status: %d", result->\x1b[01;31m\x1b[Kresult\x1b[m\x1b[K);\n'}
+[13.059534] (multi_map_nav) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.059623] (multi_map_nav) StderrLine: {'line': b'\n'}
+[13.060314] (multi_map_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ksubra/new_ws/src/multi_map_nav/src/navigation_server.cpp:91:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconflicting declaration \xe2\x80\x98\x1b[01m\x1b[Kauto result\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.060467] (multi_map_nav) StderrLine: {'line': b'   91 |     auto \x1b[01;31m\x1b[Kresult\x1b[m\x1b[K = future_result.get();\n'}
+[13.060553] (multi_map_nav) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.060646] (multi_map_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ksubra/new_ws/src/multi_map_nav/src/navigation_server.cpp:71:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration as \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> > result\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.060735] (multi_map_nav) StderrLine: {'line': b'   71 |     auto \x1b[01;36m\x1b[Kresult\x1b[m\x1b[K = goal_handle;\n'}
+[13.060817] (multi_map_nav) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.060901] (multi_map_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ksubra/new_ws/src/multi_map_nav/src/navigation_server.cpp:92:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kcode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.061016] (multi_map_nav) StderrLine: {'line': b'   92 |     return result.\x1b[01;31m\x1b[Kcode\x1b[m\x1b[K == rclcpp_action::ResultCode::SUCCEEDED;\n'}
+[13.061102] (multi_map_nav) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[13.073350] (-) TimerEvent: {}
+[13.180523] (-) TimerEvent: {}
+[13.516367] (-) TimerEvent: {}
+[13.624531] (-) TimerEvent: {}
+[13.848444] (-) TimerEvent: {}
+[14.067989] (-) TimerEvent: {}
+[14.149552] (multi_map_nav) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/navigation_server_node.dir/build.make:76: CMakeFiles/navigation_server_node.dir/src/navigation_server.cpp.o] Error 1\n'}
+[14.149784] (multi_map_nav) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[14.168294] (-) TimerEvent: {}
+[14.181689] (multi_map_nav) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/navigation_server_node.dir/all] Error 2\n'}
+[14.182008] (multi_map_nav) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[14.185722] (multi_map_nav) CommandEnded: {'returncode': 2}
+[14.197768] (multi_map_nav) JobEnded: {'identifier': 'multi_map_nav', 'rc': 2}
+[14.210789] (-) EventReactorShutdown: {}

@@ -1,0 +1,24 @@
+[  8%] Built target multi_map_nav__cpp
+[ 11%] Built target multi_map_nav__rosidl_generator_c
+[ 11%] Built target ament_cmake_python_copy_multi_map_nav
+[ 20%] Built target multi_map_nav__rosidl_typesupport_fastrtps_c
+[ 28%] Built target multi_map_nav__rosidl_typesupport_cpp
+[ 37%] Built target multi_map_nav__rosidl_typesupport_introspection_c
+[ 45%] Built target multi_map_nav__rosidl_typesupport_fastrtps_cpp
+[ 54%] Built target multi_map_nav__rosidl_typesupport_c
+[ 62%] Built target multi_map_nav__rosidl_typesupport_introspection_cpp
+[35m[1mConsolidate compiler generated dependencies of target navigation_server_node[0m
+[ 62%] Built target multi_map_nav
+[ 65%] [32mBuilding CXX object CMakeFiles/navigation_server_node.dir/src/navigation_server.cpp.o[0m
+[ 68%] Built target multi_map_nav__py
+[ 74%] Built target multi_map_nav__rosidl_generator_py
+[ 80%] Built target multi_map_nav__rosidl_typesupport_fastrtps_c__pyext
+[ 85%] Built target multi_map_nav__rosidl_typesupport_introspection_c__pyext
+[ 91%] Built target multi_map_nav__rosidl_typesupport_c__pyext
+running egg_info
+writing multi_map_nav.egg-info/PKG-INFO
+writing dependency_links to multi_map_nav.egg-info/dependency_links.txt
+writing top-level names to multi_map_nav.egg-info/top_level.txt
+reading manifest file 'multi_map_nav.egg-info/SOURCES.txt'
+writing manifest file 'multi_map_nav.egg-info/SOURCES.txt'
+[ 91%] Built target ament_cmake_python_build_multi_map_nav_egg

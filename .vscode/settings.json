@@ -1,0 +1,7 @@
+{
+    "cmake.sourceDirectory": "/home/ksubra/new_ws/src/multi_map_nav",
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "functional": "cpp"
+    }
+}

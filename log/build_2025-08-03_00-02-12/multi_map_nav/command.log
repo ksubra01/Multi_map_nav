@@ -1,0 +1,2 @@
+Invoking command in '/home/ksubra/new_ws/build/multi_map_nav': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ksubra/new_ws/build/multi_map_nav -- -j6 -l6
+Invoked command in '/home/ksubra/new_ws/build/multi_map_nav' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ksubra/new_ws/build/multi_map_nav -- -j6 -l6
